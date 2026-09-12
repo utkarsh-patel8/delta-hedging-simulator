@@ -1,0 +1,9 @@
+.venv/
+.venv_msys/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.vscode/
+
+# Do not redistribute the original market dataset
+data/raw/*.csv
