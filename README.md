@@ -1,4 +1,4 @@
-# Delta Hedging and Stock Path Simulation
+# Monte Carlo &  Neural Delta Hedging Engine       
 
 A quantitative-finance simulator for studying European call-option hedging under transaction costs, discrete rebalancing, model mismatch, and stressed markets. The project compares analytical Black–Scholes delta hedging with a PyTorch neural hedger and includes a market-calibrated experiment using minute-level NIFTY option prices.
 
