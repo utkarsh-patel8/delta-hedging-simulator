@@ -53,16 +53,15 @@ A short call has negative option exposure. The seller therefore buys approximate
 
 Stock paths are simulated using:
 
-$$
+```math
 S_{t+\Delta t}
 =
-S_t\exp\left(
+S_t \exp\left[
 \left(\mu-\frac{\sigma^2}{2}\right)\Delta t
 +
 \sigma\sqrt{\Delta t}\,Z_t
-\right)
-$$
-
+\right]
+```
 where:
 
 - $S_t$ is the stock price at time $t$;
