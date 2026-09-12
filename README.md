@@ -372,3 +372,10 @@ Lower RMSE and CVaR indicate a more effective hedge, while lower turnover and tr
 ## Technologies
 
 Python, NumPy, Pandas, SciPy, Matplotlib, Seaborn, PyTorch, and Pytest.
+
+### NIFTY dataset
+
+The market-calibrated experiment expects the source CSV at:
+
+```text
+data/raw/20260204_option_minute_prices_non_expiry.csv
